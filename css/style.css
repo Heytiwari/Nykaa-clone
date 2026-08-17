@@ -461,6 +461,14 @@ header {
   font-size: 15px;
   font-weight: 400;
 }
+.beauty-card:hover img {
+  border: 2px solid #ed2c82;
+}
+
+.beauty-card:hover h3,
+.beauty-card:hover p {
+  color: #ed2c82;
+}
 
 .beauty-item:hover::after {
   content: "";
@@ -891,7 +899,7 @@ header {
 /* Best Brands section */
 .best-brand-main {
   width: 100%;
-  height: 700px;
+  /* height: 700px; */
   background-color: #c3ecdc;
   margin-top: -5px;
   padding: 40px;
@@ -978,11 +986,6 @@ header {
   margin-right: 10px;
 }
 
-/* .email-box {
-  width: 135px;
-  height: 18px;
-} */
-
 .email-form {
   gap: 12px;
 }
@@ -1062,6 +1065,9 @@ header {
   flex-direction: column;
   gap: 10px;
 }
+.footer-column svg{
+  margin-bottom: 20px;
+}
 
 .footer-column h3 {
   margin: 0 0 12px;
@@ -1086,64 +1092,54 @@ header {
 
 .footer-benefits {
   width: 100%;
-  height: 110px;
-
+  height: 150px;
   background: #f7f7f7;
 }
 
 .benefits-inner {
-  width: 625px;
+  width: 100%;
   height: 100%;
   margin: 0 auto;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  padding: 70px;
 }
 
 
 /* Benefit */
 
 .benefit {
-  display: flex;
-  align-items: center;
-
   gap: 8px;
 }
 
 .benefit-icon {
-  width: 22px;
-  height: 22px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  width: 40px;
+  height: 40px;
   flex-shrink: 0;
-
-  border-radius: 50%;
-
-  background: #e90071;
-  color: #fff;
-
-  font-size: 11px;
+  /* border-radius: 50%; */
+  /* background: #e90071; */
+  /* color: #fff; */
+  /* font-size: 25px; */
 }
 
 .benefit h4 {
+  width: 120px;
   margin: 0 0 4px;
-
   color: #555;
-
-  font-size: 7px;
+  font-size: 14px;
   font-weight: 600;
+}
+
+.benefits-divider{
+  width: 110px;
+  height: 0.5px;
+  background: red;
+  margin-top: 7px;
+  margin-bottom: 10px;
 }
 
 .benefit p {
   margin: 0;
-
   color: #777;
-
-  font-size: 6px;
+  font-size: 12px;
   line-height: 1.4;
 }
 
@@ -1156,61 +1152,35 @@ header {
 
 .social-section p {
   margin: 0 0 8px;
-
   color: #444;
-
-  font-size: 6px;
+  font-size: 14px;
+  width: 210px;
 }
 
 .social-icons {
-  display: flex;
-  justify-content: center;
-
   gap: 7px;
-}
-
-.social-icons span {
-  width: 12px;
-  height: 12px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border-radius: 50%;
-
-  color: #263746;
-
-  font-size: 7px;
-  font-weight: bold;
 }
 
 /* FOOTER BOTTOM */
 
 .footer-bottom {
   width: 100%;
-  height: 42px;
-
+  height: 100px;
   padding-top: 8px;
-
   background: #ed0072;
   color: #fff;
-
   text-align: center;
+  align-content: center;
 }
 
 .footer-policy {
-  display: flex;
-  justify-content: center;
-
   gap: 18px;
 }
 
 .footer-policy a {
   color: #fff;
   text-decoration: none;
-
-  font-size: 6px;
+  font-size: 12px;
 }
 
 .footer-policy a:hover {
@@ -1219,6 +1189,5 @@ header {
 
 .footer-bottom p {
   margin: 8px 0 0;
-
-  font-size: 6px;
+  font-size: 12px;
 }
