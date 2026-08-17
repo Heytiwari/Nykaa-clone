@@ -47,6 +47,7 @@ This project is created to practice **frontend development**, CSS layouts, dropd
 ## 📸 Project Preview
 
 ![Nykaa Clone Preview](./output/m.png)
+<!-- <img src="./output/m.png" alt="Nykaa Clone Preview"> -->
 
 ---
 
