@@ -68,11 +68,6 @@ Nykaa-Clone/
 ├── screenshot.png
 └── README.md
 ```
-
----
-
-## 🎨 Main Sections
-
 ### 🔝 Header
 
 * Promotional bar
@@ -161,7 +156,7 @@ Used for:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Heytiwari/naykaa-clone.git
+git clone https://github.com/Heytiwari/nykaa-clone.git
 ```
 
 2. Open the project folder.
