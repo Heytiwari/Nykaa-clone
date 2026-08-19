@@ -71,7 +71,6 @@ Nykaa-Clone/
 
 ---
 
-## 🎨 Main Sections
 
 ### 🔝 Header
 

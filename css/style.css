@@ -141,9 +141,7 @@ header {
   color: #ff2875;
 }
 
-/* =========================
-   BRANDS
-========================= */
+/* BRANDS */
 
 .brands-dropdown {
   width: 1160px;
@@ -571,12 +569,17 @@ header {
   color: #ff2875;
 }
 
+.category-group{
+  gap: 20px;
+}
 /* MAKEUP / CATEGORY DROPDOWN */
+
+
 
 .makeup-dropdown {
   display: none;
-  top: 50px;
-  left: 85px;
+  top: 40px;
+  left: 0;
   width: 1090px;
   min-height: 500px;
   background-color: #fff;
