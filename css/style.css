@@ -59,11 +59,11 @@ header {
   z-index: 1000000;
 }
 
-.promo-bar.position-fixed {
+.promo-bar .position-fixed {
   top: 0;
 }
 
-.main-navbar.position-fixed {
+.main-navbar .position-fixed {
   top: 50px;
 }
 
@@ -650,6 +650,7 @@ header {
   font-weight: bold;
   background: #ed2c82;
   clip-path: polygon(8% 15%, 93% 8%, 100% 45%, 91% 90%, 8% 95%, 0% 55%);
+  text-decoration: none;
 }
 
 /* SALE BAR */
