@@ -68,13 +68,7 @@ Nykaa-Clone/
 ├── screenshot.png
 └── README.md
 ```
-<<<<<<< HEAD
 
----
-
-
-=======
->>>>>>> c3ddd0782863d65768ccd255cbf1f74559b560b1
 ### 🔝 Header
 
 * Promotional bar
