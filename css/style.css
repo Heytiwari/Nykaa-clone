@@ -6,9 +6,10 @@
   box-sizing: border-box;
 }
 
-body {
+body, html {
   font-family: "Inter", sans-serif;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .flex {
@@ -568,6 +569,13 @@ header {
 .category-item:hover > a {
   color: #ff2875;
 }
+/* .category-item:hover::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: -1;
+} */
 
 .category-group{
   gap: 20px;
